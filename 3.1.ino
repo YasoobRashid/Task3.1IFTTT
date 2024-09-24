@@ -14,7 +14,7 @@ void setup()
 {
   WiFi.begin(ssid, pass); // Start the WiFi connection using the provided credentials
   Serial.begin(9600); // Initialize serial communication for debugging
-  pinMode(ledCheck, OUTPUT); // Set the LED pin as an output (if used)
+  pinMode(ledCheck, OUTPUT); // Set the LED pin as an output 
 
   Wire.begin(); // Initialize the I2C communication
   lightMeter.begin(); // Start the BH1750 light sensor
